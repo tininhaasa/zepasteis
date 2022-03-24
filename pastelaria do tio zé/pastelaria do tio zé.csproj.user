@@ -10,9 +10,6 @@
     <Compile Update="config.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="configuration.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="employees.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -24,6 +21,9 @@
     </Compile>
     <Compile Update="product.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControl1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>

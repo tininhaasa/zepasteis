@@ -31,9 +31,13 @@ namespace pastelaria_do_tio_zé
             about.FlatAppearance.BorderSize = 0;
             about.BackColor = ColorTranslator.FromHtml("#DEECF1");
 
-            conf.FlatStyle = FlatStyle.Flat;
-            conf.FlatAppearance.BorderSize = 0;
-            conf.BackColor = ColorTranslator.FromHtml("#DEECF1");
+            config.FlatStyle = FlatStyle.Flat;
+            config.FlatAppearance.BorderSize = 0;
+            config.BackColor = ColorTranslator.FromHtml("#DEECF1");
+
+            clients.FlatStyle = FlatStyle.Flat;
+            clients.FlatAppearance.BorderSize = 0;
+            clients.BackColor = ColorTranslator.FromHtml("#DEECF1");
 
             language_pt.FlatStyle = FlatStyle.Flat;
             language_pt.FlatAppearance.BorderSize = 0;
@@ -90,5 +94,6 @@ namespace pastelaria_do_tio_zé
             about form_about = new about();
             form_about.ShowDialog();
         }
+
     } 
 }

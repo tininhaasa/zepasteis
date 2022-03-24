@@ -20,19 +20,10 @@ namespace pastelaria_do_tio_zé
             save.BackColor = ColorTranslator.FromHtml("#37B52C");
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void save_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void forfeit_label_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

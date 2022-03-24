@@ -109,7 +109,7 @@
             // phone_label
             // 
             this.phone_label.AutoSize = true;
-            this.phone_label.Location = new System.Drawing.Point(-8, 242);
+            this.phone_label.Location = new System.Drawing.Point(8, 242);
             this.phone_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.phone_label.Name = "phone_label";
             this.phone_label.Size = new System.Drawing.Size(73, 21);
