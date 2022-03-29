@@ -38,5 +38,10 @@ namespace pastelaria_do_tio_zé
 
             this.Close();
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

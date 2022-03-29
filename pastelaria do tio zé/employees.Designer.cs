@@ -42,9 +42,9 @@
             this.group = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.save = new System.Windows.Forms.Button();
             this.panelForm = new System.Windows.Forms.Panel();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.panelControl = new System.Windows.Forms.Panel();
             this.panelForm.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -183,19 +183,6 @@
             this.panel2.Size = new System.Drawing.Size(153, 146);
             this.panel2.TabIndex = 12;
             // 
-            // save
-            // 
-            this.save.Font = new System.Drawing.Font("Montserrat Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.save.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.save.Location = new System.Drawing.Point(471, 577);
-            this.save.Margin = new System.Windows.Forms.Padding(4);
-            this.save.Name = "save";
-            this.save.Size = new System.Drawing.Size(132, 47);
-            this.save.TabIndex = 13;
-            this.save.Text = "SALVAR";
-            this.save.UseVisualStyleBackColor = true;
-            this.save.Click += new System.EventHandler(this.save_Click);
-            // 
             // panelForm
             // 
             this.panelForm.Controls.Add(this.label1);
@@ -212,7 +199,7 @@
             this.panelForm.Controls.Add(this.name);
             this.panelForm.Location = new System.Drawing.Point(14, 158);
             this.panelForm.Name = "panelForm";
-            this.panelForm.Size = new System.Drawing.Size(589, 411);
+            this.panelForm.Size = new System.Drawing.Size(589, 379);
             this.panelForm.TabIndex = 14;
             this.panelForm.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -220,18 +207,26 @@
             // 
             this.vScrollBar1.Location = new System.Drawing.Point(605, 158);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(28, 413);
+            this.vScrollBar1.Size = new System.Drawing.Size(28, 379);
             this.vScrollBar1.TabIndex = 31;
             this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vScrollBar1_Scroll);
+            // 
+            // panelControl
+            // 
+            this.panelControl.Location = new System.Drawing.Point(262, 553);
+            this.panelControl.Name = "panelControl";
+            this.panelControl.Size = new System.Drawing.Size(341, 52);
+            this.panelControl.TabIndex = 34;
+            this.panelControl.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl_Paint);
             // 
             // employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(643, 628);
+            this.Controls.Add(this.panelControl);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.panelForm);
-            this.Controls.Add(this.save);
             this.Controls.Add(this.panel2);
             this.Font = new System.Drawing.Font("Montserrat", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -259,8 +254,8 @@
         private ComboBox group;
         private Label label1;
         private Panel panel2;
-        private Button save;
         private Panel panelForm;
         private VScrollBar vScrollBar1;
+        private Panel panelControl;
     }
 }

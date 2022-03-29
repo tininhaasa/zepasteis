@@ -15,11 +15,15 @@ namespace pastelaria_do_tio_zé
         public UserControl1()
         {
             InitializeComponent();
-        }
+            save.FlatStyle = FlatStyle.Flat;
+            save.FlatAppearance.BorderSize = 0;
+            save.BackColor = ColorTranslator.FromHtml("#37B52C");
+            save.Text = "Salvar";
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-             
+            cancel.FlatStyle = FlatStyle.Flat;
+            cancel.FlatAppearance.BorderSize = 0;
+            cancel.BackColor = ColorTranslator.FromHtml("#ff0000");
+            cancel.Text = "Cancelar";
         }
     }
 }

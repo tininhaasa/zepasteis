@@ -28,32 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.save = new System.Windows.Forms.Button();
+            this.cancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // save
             // 
-            this.button1.Location = new System.Drawing.Point(13, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 59);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.save.Font = new System.Drawing.Font("Montserrat Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.save.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.save.Location = new System.Drawing.Point(111, 0);
+            this.save.Name = "save";
+            this.save.Size = new System.Drawing.Size(102, 52);
+            this.save.TabIndex = 0;
+            this.save.Text = "Salvar";
+            this.save.UseVisualStyleBackColor = true;
+            // 
+            // cancel
+            // 
+            this.cancel.Font = new System.Drawing.Font("Montserrat Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.cancel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.cancel.Location = new System.Drawing.Point(3, 0);
+            this.cancel.Name = "cancel";
+            this.cancel.Size = new System.Drawing.Size(102, 52);
+            this.cancel.TabIndex = 1;
+            this.cancel.Text = "Cancelar";
+            this.cancel.UseVisualStyleBackColor = true;
             // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cancel);
+            this.Controls.Add(this.save);
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(390, 102);
+            this.Size = new System.Drawing.Size(221, 52);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private Button button1;
+        public Button save;
+        public Button cancel;
     }
 }

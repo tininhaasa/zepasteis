@@ -47,7 +47,7 @@
             this.days = new System.Windows.Forms.TextBox();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.panelForm = new System.Windows.Forms.Panel();
-            this.save_btn = new System.Windows.Forms.Button();
+            this.panelControl = new System.Windows.Forms.Panel();
             this.panelForm.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -220,9 +220,9 @@
             // 
             // vScrollBar1
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(624, 180);
+            this.vScrollBar1.Location = new System.Drawing.Point(624, 173);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(28, 413);
+            this.vScrollBar1.Size = new System.Drawing.Size(28, 394);
             this.vScrollBar1.TabIndex = 30;
             this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vScrollBar1_Scroll);
             // 
@@ -244,28 +244,23 @@
             this.panelForm.Controls.Add(this.name);
             this.panelForm.Location = new System.Drawing.Point(28, 173);
             this.panelForm.Name = "panelForm";
-            this.panelForm.Size = new System.Drawing.Size(599, 420);
+            this.panelForm.Size = new System.Drawing.Size(599, 394);
             this.panelForm.TabIndex = 31;
             // 
-            // save_btn
+            // panelControl
             // 
-            this.save_btn.Font = new System.Drawing.Font("Montserrat Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.save_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.save_btn.Location = new System.Drawing.Point(495, 605);
-            this.save_btn.Margin = new System.Windows.Forms.Padding(4);
-            this.save_btn.Name = "save_btn";
-            this.save_btn.Size = new System.Drawing.Size(132, 47);
-            this.save_btn.TabIndex = 32;
-            this.save_btn.Text = "SALVAR";
-            this.save_btn.UseVisualStyleBackColor = true;
-            this.save_btn.Click += new System.EventHandler(this.save_btn_Click);
+            this.panelControl.Location = new System.Drawing.Point(261, 588);
+            this.panelControl.Name = "panelControl";
+            this.panelControl.Size = new System.Drawing.Size(366, 52);
+            this.panelControl.TabIndex = 32;
+            this.panelControl.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl_Paint);
             // 
             // clients
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(654, 672);
-            this.Controls.Add(this.save_btn);
+            this.Controls.Add(this.panelControl);
             this.Controls.Add(this.panelForm);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.save);
@@ -302,6 +297,6 @@
         private TextBox days;
         private VScrollBar vScrollBar1;
         private Panel panelForm;
-        private Button save_btn;
+        private Panel panelControl;
     }
 }

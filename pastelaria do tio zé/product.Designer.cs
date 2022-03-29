@@ -37,7 +37,7 @@
             this.description_label1 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.product_image = new System.Windows.Forms.PictureBox();
-            this.save = new System.Windows.Forms.Button();
+            this.panelControl = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.product_image)).BeginInit();
             this.SuspendLayout();
             // 
@@ -119,25 +119,20 @@
             this.product_image.TabStop = false;
             this.product_image.Click += new System.EventHandler(this.product_image_Click);
             // 
-            // save
+            // panelControl
             // 
-            this.save.Font = new System.Drawing.Font("Montserrat Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.save.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.save.Location = new System.Drawing.Point(741, 311);
-            this.save.Margin = new System.Windows.Forms.Padding(4);
-            this.save.Name = "save";
-            this.save.Size = new System.Drawing.Size(125, 58);
-            this.save.TabIndex = 27;
-            this.save.Text = "SALVAR";
-            this.save.UseVisualStyleBackColor = true;
-            this.save.Click += new System.EventHandler(this.save_Click);
+            this.panelControl.Location = new System.Drawing.Point(525, 315);
+            this.panelControl.Name = "panelControl";
+            this.panelControl.Size = new System.Drawing.Size(337, 50);
+            this.panelControl.TabIndex = 33;
+            this.panelControl.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl_Paint);
             // 
             // product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(959, 391);
-            this.Controls.Add(this.save);
+            this.Controls.Add(this.panelControl);
             this.Controls.Add(this.product_image);
             this.Controls.Add(this.description_label1);
             this.Controls.Add(this.description);
@@ -166,6 +161,6 @@
         private Label description_label1;
         private OpenFileDialog openFileDialog1;
         private PictureBox product_image;
-        private Button save;
+        private Panel panelControl;
     }
 }
