@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>pastelaria do tio zé</name>
+    </assembly>
+    <members>
+        <member name="F:pastelaria_do_tio_zé.about.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.about.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.about.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:pastelaria_do_tio_zé.clients.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.clients.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.clients.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:pastelaria_do_tio_zé.config.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.config.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.config.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:pastelaria_do_tio_zé.employees.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.employees.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.employees.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:pastelaria_do_tio_zé.ZePasteis">
+            <summary>
+            Classe principal da pastelaria do seu zé
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.ZePasteis.#ctor">
+            <summary>
+            Método/função principal
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.ZePasteis.ZePasteis_Load(System.Object,System.EventArgs)">
+            <summary>
+            Quando iniciar o código ele formata os botões que estão com padrão do visual studio
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.ZePasteis.changeLang(System.String)">
+            <summary>
+            Aqui ele troca toda a linguagem do sistemas, com o click dos eventos language_pt_Click,language_sp_Click e language_en_Click
+            </summary>
+            <param name="lang">Passado pelo click dos botões com as bandeiras dos países</param>
+        </member>
+        <member name="F:pastelaria_do_tio_zé.ZePasteis.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.ZePasteis.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.ZePasteis.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:pastelaria_do_tio_zé.login.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.login.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.login.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:pastelaria_do_tio_zé.product.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.product.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.product.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:pastelaria_do_tio_zé.Properties.Resources">
+            <summary>
+              Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.ResourceManager">
+            <summary>
+              Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.Culture">
+            <summary>
+              Substitui a propriedade CurrentUICulture do thread atual para todas as
+              pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.descAbout">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Um software por CristinaSA e ABCBolinhas.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.Icon1">
+            <summary>
+              Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtAbout">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Sobre.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtCancel">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Cancelar.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtChangeLangMessage">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Idioma/região alterada com sucesso! Deseja reiniciar a aplicação para aplicar o idioma.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtChangeLangTitle">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Mudança de Idioma.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtClient">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Clientes.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtConfig">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Configurações.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtDays">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Dias Fiado.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtDesc">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Descrição.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtDocument">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a CPF ou Passaporte.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtEmployeer">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Funcionário.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtFine">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Pega fiado?.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtForfeit">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Valor da Multa por Atraso.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtGroup">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Grupo.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtLogin">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Entrar.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtName">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Nome.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtPass">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Senha.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtPercent">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Porcentagem de juros por dia.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtPhone">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Telefone.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtPrice">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Preço.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtProduct">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Produtos.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtRegister">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Matricula.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtSave">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Salvar.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.txtUser">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Usuário.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.Properties.Resources.V2_1">
+            <summary>
+              Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+            </summary>
+        </member>
+        <member name="T:pastelaria_do_tio_zé.ResourceLang___en">
+            <summary>
+              Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.ResourceLang___en.ResourceManager">
+            <summary>
+              Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+            </summary>
+        </member>
+        <member name="P:pastelaria_do_tio_zé.ResourceLang___en.Culture">
+            <summary>
+              Substitui a propriedade CurrentUICulture do thread atual para todas as
+              pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+            </summary>
+        </member>
+        <member name="F:pastelaria_do_tio_zé.UserControl1.components">
+            <summary> 
+            Variável de designer necessária.
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.UserControl1.Dispose(System.Boolean)">
+            <summary> 
+            Limpar os recursos que estão sendo usados.
+            </summary>
+            <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.UserControl1.InitializeComponent">
+            <summary> 
+            Método necessário para suporte ao Designer - não modifique 
+            o conteúdo deste método com o editor de código.
+            </summary>
+        </member>
+        <member name="T:pastelaria_do_tio_zé.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:pastelaria_do_tio_zé.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             Application.EnableVisualStyles();
+             Application.SetCompatibleTextRenderingDefault(false);
+             Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>

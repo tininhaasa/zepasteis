@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(about));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.about_label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // panel2
@@ -44,22 +44,22 @@
             this.panel2.Click += new System.EventHandler(this.panel2_Click);
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // label1
+            // about_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 195);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(330, 21);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Um software por CristinaSA e ABCBolinhas";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.about_label.AutoSize = true;
+            this.about_label.Location = new System.Drawing.Point(12, 195);
+            this.about_label.Name = "about_label";
+            this.about_label.Size = new System.Drawing.Size(330, 21);
+            this.about_label.TabIndex = 7;
+            this.about_label.Text = "Um software por CristinaSA e ABCBolinhas";
+            this.about_label.Click += new System.EventHandler(this.label1_Click);
             // 
             // about
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(355, 228);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.about_label);
             this.Controls.Add(this.panel2);
             this.Font = new System.Drawing.Font("Montserrat", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -76,6 +76,6 @@
         #endregion
 
         private Panel panel2;
-        private Label label1;
+        private Label about_label;
     }
 }

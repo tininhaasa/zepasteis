@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace pastelaria_do_tio_zé
+﻿namespace pastelaria_do_tio_zé
 {
     public partial class product : Form
     {
@@ -19,9 +9,14 @@ namespace pastelaria_do_tio_zé
             // aqui ele pega e instancia o objeto do user controle (y)
             UserControl1 operacoes = new();
             operacoes.Dock = DockStyle.Bottom;
+
             panelControl.Controls.Add(operacoes);
             //pega o tamanho atual da tela e acrescenta à altura de operações
             Size = new Size(Size.Width, Size.Height + operacoes.Size.Height);
+
+            name_label.Text = Properties.Resources.ResourceManager.GetString("txtName");
+            price_label.Text = Properties.Resources.ResourceManager.GetString("txtPrice");
+            description_label1.Text = Properties.Resources.ResourceManager.GetString("txtDesc");
 
             operacoes.save.Click += save_Click;
             operacoes.cancel.Click += save_Click;
@@ -40,35 +35,10 @@ namespace pastelaria_do_tio_zé
             }
         }
 
-        private void name_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void product_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void save_Click(object sender, EventArgs e)
         {
 
             this.Close();
-        }
-
-        private void panelControl_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

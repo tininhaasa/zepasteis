@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(clients));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.fine_label = new System.Windows.Forms.Label();
             this.group = new System.Windows.Forms.ComboBox();
             this.pass_label = new System.Windows.Forms.Label();
             this.password = new System.Windows.Forms.TextBox();
@@ -61,17 +61,16 @@
             this.panel2.Size = new System.Drawing.Size(153, 146);
             this.panel2.TabIndex = 25;
             // 
-            // label1
+            // fine_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 390);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 21);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "Faz fiado";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.fine_label.AutoSize = true;
+            this.fine_label.Location = new System.Drawing.Point(6, 390);
+            this.fine_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.fine_label.Name = "fine_label";
+            this.fine_label.Size = new System.Drawing.Size(79, 21);
+            this.fine_label.TabIndex = 24;
+            this.fine_label.Text = "Faz fiado";
+            this.fine_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // group
             // 
@@ -206,7 +205,6 @@
             this.days_label.Text = "Dias fiado";
             this.days_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.days_label.Visible = false;
-            this.days_label.Click += new System.EventHandler(this.label2_Click);
             // 
             // days
             // 
@@ -216,11 +214,10 @@
             this.days.Size = new System.Drawing.Size(584, 25);
             this.days.TabIndex = 29;
             this.days.Visible = false;
-            this.days.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // vScrollBar1
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(624, 173);
+            this.vScrollBar1.Location = new System.Drawing.Point(630, 173);
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(28, 394);
             this.vScrollBar1.TabIndex = 30;
@@ -230,7 +227,7 @@
             // 
             this.panelForm.Controls.Add(this.days);
             this.panelForm.Controls.Add(this.days_label);
-            this.panelForm.Controls.Add(this.label1);
+            this.panelForm.Controls.Add(this.fine_label);
             this.panelForm.Controls.Add(this.group);
             this.panelForm.Controls.Add(this.pass_label);
             this.panelForm.Controls.Add(this.password);
@@ -253,7 +250,6 @@
             this.panelControl.Name = "panelControl";
             this.panelControl.Size = new System.Drawing.Size(366, 52);
             this.panelControl.TabIndex = 32;
-            this.panelControl.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl_Paint);
             // 
             // clients
             // 
@@ -270,7 +266,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "clients";
             this.Text = "clients";
-            this.Load += new System.EventHandler(this.clients_Load);
             this.panelForm.ResumeLayout(false);
             this.panelForm.PerformLayout();
             this.ResumeLayout(false);
@@ -280,7 +275,7 @@
         #endregion
 
         private Panel panel2;
-        private Label label1;
+        private Label fine_label;
         private ComboBox group;
         private Label pass_label;
         private TextBox password;

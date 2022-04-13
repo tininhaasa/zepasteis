@@ -118,11 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="descAbout" xml:space="preserve">
-    <value>Um software por CristinaSA e ABCBolinhas</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Un software por CristinaSA e ABCBolinhas</value>
   </data>
   <data name="txtAbout" xml:space="preserve">
     <value>Sobre</value>
@@ -131,34 +127,34 @@
     <value>Cancelar</value>
   </data>
   <data name="txtChangeLangMessage" xml:space="preserve">
-    <value>Idioma/região alterada com sucesso! Deseja reiniciar a aplicação para aplicar o idioma</value>
+    <value>¡El idioma/región cambió con éxito! ¿Quieres reiniciar la aplicación para aplicar el idioma?</value>
   </data>
   <data name="txtChangeLangTitle" xml:space="preserve">
-    <value>Mudança de Idioma</value>
+    <value>Cambio de Idioma</value>
   </data>
   <data name="txtClient" xml:space="preserve">
     <value>Clientes</value>
   </data>
   <data name="txtConfig" xml:space="preserve">
-    <value>Configurações</value>
+    <value>Ajustes </value>
   </data>
   <data name="txtDays" xml:space="preserve">
-    <value>Dias Fiado</value>
+    <value>Días del credito</value>
   </data>
   <data name="txtDesc" xml:space="preserve">
-    <value>Descrição</value>
+    <value>Descripción</value>
   </data>
   <data name="txtDocument" xml:space="preserve">
-    <value>CPF ou Passaporte</value>
+    <value>CPF o pasaporte</value>
   </data>
   <data name="txtEmployeer" xml:space="preserve">
-    <value>Funcionário</value>
+    <value>Empleado</value>
   </data>
   <data name="txtFine" xml:space="preserve">
-    <value>Pega fiado?</value>
+    <value>Lo hace a credito?</value>
   </data>
   <data name="txtForfeit" xml:space="preserve">
-    <value>Valor da Multa por Atraso</value>
+    <value>Importe de la multa por retraso</value>
   </data>
   <data name="txtGroup" xml:space="preserve">
     <value>Grupo</value>
@@ -167,33 +163,30 @@
     <value>Entrar</value>
   </data>
   <data name="txtName" xml:space="preserve">
-    <value>Nome</value>
+    <value>Nombre</value>
   </data>
   <data name="txtPass" xml:space="preserve">
-    <value>Senha</value>
+    <value>Clave</value>
   </data>
   <data name="txtPercent" xml:space="preserve">
-    <value>Porcentagem de juros por dia</value>
+    <value>Porcentaje de interés por día</value>
   </data>
   <data name="txtPhone" xml:space="preserve">
-    <value>Telefone</value>
+    <value>Teléfono</value>
   </data>
   <data name="txtPrice" xml:space="preserve">
-    <value>Preço</value>
+    <value>Precio</value>
   </data>
   <data name="txtProduct" xml:space="preserve">
-    <value>Produtos</value>
+    <value>Productos</value>
   </data>
   <data name="txtRegister" xml:space="preserve">
-    <value>Matricula</value>
+    <value>Registro</value>
   </data>
   <data name="txtSave" xml:space="preserve">
-    <value>Salvar</value>
+    <value>Guardar</value>
   </data>
   <data name="txtUser" xml:space="preserve">
-    <value>Usuário</value>
-  </data>
-  <data name="V2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\V2_1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Usuario</value>
   </data>
 </root>

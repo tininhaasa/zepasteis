@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace pastelaria_do_tio_zé
+﻿namespace pastelaria_do_tio_zé
 {
     public partial class clients : Form
     {
@@ -16,6 +6,15 @@ namespace pastelaria_do_tio_zé
         public clients()
         {
             InitializeComponent();
+
+            name_label.Text = Properties.Resources.ResourceManager.GetString("txtName");
+            cpf_label.Text = Properties.Resources.ResourceManager.GetString("txtDocument");
+            phone_label.Text = Properties.Resources.ResourceManager.GetString("txtPhone");
+            register_label.Text = Properties.Resources.ResourceManager.GetString("txtRegister");
+            pass_label.Text = Properties.Resources.ResourceManager.GetString("txtPass");
+            fine_label.Text = Properties.Resources.ResourceManager.GetString("txtFine");
+            days_label.Text = Properties.Resources.ResourceManager.GetString("txtDays");
+
             // aqui ele pega e instancia o objeto do user controle (y)
             UserControl1 operacoes = new();
             operacoes.Dock = DockStyle.Bottom;
@@ -28,18 +27,9 @@ namespace pastelaria_do_tio_zé
             operacoes.cancel.Click += save_Click;
         }
 
-        private void clients_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void save_Click(object sender, EventArgs e)
         {
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
 
         private void group_SelectedValueChanged(object sender, EventArgs e)
@@ -47,7 +37,7 @@ namespace pastelaria_do_tio_zé
             if (group.SelectedItem != null)
             {
                 string option = (string)group.SelectedItem;
-                if(option == "Sim")
+                if (option == "Sim")
                 {
                     days_label.Visible = true;
                     days.Visible = true;
@@ -62,21 +52,6 @@ namespace pastelaria_do_tio_zé
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
             panelForm.VerticalScroll.Value = vScrollBar1.Value;
@@ -87,9 +62,5 @@ namespace pastelaria_do_tio_zé
             this.Close();
         }
 
-        private void panelControl_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

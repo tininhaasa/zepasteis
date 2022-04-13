@@ -48,7 +48,6 @@
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(512, 25);
             this.name.TabIndex = 14;
-            this.name.TextChanged += new System.EventHandler(this.name_TextChanged);
             // 
             // name_label
             // 
@@ -72,7 +71,6 @@
             this.price_label.TabIndex = 17;
             this.price_label.Text = "Preço";
             this.price_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.price_label.Click += new System.EventHandler(this.label1_Click);
             // 
             // price
             // 
@@ -82,7 +80,6 @@
             this.price.Name = "price";
             this.price.Size = new System.Drawing.Size(512, 25);
             this.price.TabIndex = 16;
-            this.price.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // description
             // 
@@ -125,7 +122,6 @@
             this.panelControl.Name = "panelControl";
             this.panelControl.Size = new System.Drawing.Size(337, 50);
             this.panelControl.TabIndex = 33;
-            this.panelControl.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl_Paint);
             // 
             // product
             // 
@@ -145,7 +141,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "product";
             this.Text = "Cadastro de Produtos";
-            this.Load += new System.EventHandler(this.product_Load);
             ((System.ComponentModel.ISupportInitialize)(this.product_image)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

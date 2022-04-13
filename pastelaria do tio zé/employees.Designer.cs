@@ -40,7 +40,7 @@
             this.pass_label = new System.Windows.Forms.Label();
             this.password = new System.Windows.Forms.TextBox();
             this.group = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.group_label = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelForm = new System.Windows.Forms.Panel();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
@@ -66,7 +66,6 @@
             this.name_label.TabIndex = 1;
             this.name_label.Text = "Nome";
             this.name_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.name_label.Click += new System.EventHandler(this.label1_Click);
             // 
             // cpf_label
             // 
@@ -78,7 +77,6 @@
             this.cpf_label.TabIndex = 3;
             this.cpf_label.Text = "CPF";
             this.cpf_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.cpf_label.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // cpf
             // 
@@ -87,7 +85,6 @@
             this.cpf.Name = "cpf";
             this.cpf.Size = new System.Drawing.Size(584, 25);
             this.cpf.TabIndex = 2;
-            this.cpf.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // register_label
             // 
@@ -137,7 +134,6 @@
             this.pass_label.TabIndex = 9;
             this.pass_label.Text = "Senha";
             this.pass_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.pass_label.Click += new System.EventHandler(this.label1_Click_2);
             // 
             // password
             // 
@@ -147,7 +143,6 @@
             this.password.PasswordChar = '*';
             this.password.Size = new System.Drawing.Size(584, 25);
             this.password.TabIndex = 8;
-            this.password.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // group
             // 
@@ -161,17 +156,16 @@
             this.group.Size = new System.Drawing.Size(583, 29);
             this.group.TabIndex = 10;
             // 
-            // label1
+            // group_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 412);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 21);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Grupo";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Click += new System.EventHandler(this.label1_Click_3);
+            this.group_label.AutoSize = true;
+            this.group_label.Location = new System.Drawing.Point(3, 412);
+            this.group_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.group_label.Name = "group_label";
+            this.group_label.Size = new System.Drawing.Size(57, 21);
+            this.group_label.TabIndex = 11;
+            this.group_label.Text = "Grupo";
+            this.group_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panel2
             // 
@@ -185,7 +179,7 @@
             // 
             // panelForm
             // 
-            this.panelForm.Controls.Add(this.label1);
+            this.panelForm.Controls.Add(this.group_label);
             this.panelForm.Controls.Add(this.group);
             this.panelForm.Controls.Add(this.pass_label);
             this.panelForm.Controls.Add(this.password);
@@ -201,7 +195,6 @@
             this.panelForm.Name = "panelForm";
             this.panelForm.Size = new System.Drawing.Size(589, 379);
             this.panelForm.TabIndex = 14;
-            this.panelForm.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // vScrollBar1
             // 
@@ -217,7 +210,6 @@
             this.panelControl.Name = "panelControl";
             this.panelControl.Size = new System.Drawing.Size(341, 52);
             this.panelControl.TabIndex = 34;
-            this.panelControl.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl_Paint);
             // 
             // employees
             // 
@@ -252,7 +244,7 @@
         private Label pass_label;
         private TextBox password;
         private ComboBox group;
-        private Label label1;
+        private Label group_label;
         private Panel panel2;
         private Panel panelForm;
         private VScrollBar vScrollBar1;

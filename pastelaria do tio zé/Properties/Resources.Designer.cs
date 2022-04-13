@@ -61,12 +61,228 @@ namespace pastelaria_do_tio_zé.Properties {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Um software por CristinaSA e ABCBolinhas.
+        /// </summary>
+        internal static string descAbout {
+            get {
+                return ResourceManager.GetString("descAbout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
         /// </summary>
         internal static System.Drawing.Icon Icon1 {
             get {
                 object obj = ResourceManager.GetObject("Icon1", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Sobre.
+        /// </summary>
+        internal static string txtAbout {
+            get {
+                return ResourceManager.GetString("txtAbout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Cancelar.
+        /// </summary>
+        internal static string txtCancel {
+            get {
+                return ResourceManager.GetString("txtCancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Idioma/região alterada com sucesso! Deseja reiniciar a aplicação para aplicar o idioma.
+        /// </summary>
+        internal static string txtChangeLangMessage {
+            get {
+                return ResourceManager.GetString("txtChangeLangMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Mudança de Idioma.
+        /// </summary>
+        internal static string txtChangeLangTitle {
+            get {
+                return ResourceManager.GetString("txtChangeLangTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Clientes.
+        /// </summary>
+        internal static string txtClient {
+            get {
+                return ResourceManager.GetString("txtClient", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Configurações.
+        /// </summary>
+        internal static string txtConfig {
+            get {
+                return ResourceManager.GetString("txtConfig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Dias Fiado.
+        /// </summary>
+        internal static string txtDays {
+            get {
+                return ResourceManager.GetString("txtDays", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Descrição.
+        /// </summary>
+        internal static string txtDesc {
+            get {
+                return ResourceManager.GetString("txtDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a CPF ou Passaporte.
+        /// </summary>
+        internal static string txtDocument {
+            get {
+                return ResourceManager.GetString("txtDocument", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Funcionário.
+        /// </summary>
+        internal static string txtEmployeer {
+            get {
+                return ResourceManager.GetString("txtEmployeer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Pega fiado?.
+        /// </summary>
+        internal static string txtFine {
+            get {
+                return ResourceManager.GetString("txtFine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Valor da Multa por Atraso.
+        /// </summary>
+        internal static string txtForfeit {
+            get {
+                return ResourceManager.GetString("txtForfeit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Grupo.
+        /// </summary>
+        internal static string txtGroup {
+            get {
+                return ResourceManager.GetString("txtGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Entrar.
+        /// </summary>
+        internal static string txtLogin {
+            get {
+                return ResourceManager.GetString("txtLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Nome.
+        /// </summary>
+        internal static string txtName {
+            get {
+                return ResourceManager.GetString("txtName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Senha.
+        /// </summary>
+        internal static string txtPass {
+            get {
+                return ResourceManager.GetString("txtPass", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Porcentagem de juros por dia.
+        /// </summary>
+        internal static string txtPercent {
+            get {
+                return ResourceManager.GetString("txtPercent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Telefone.
+        /// </summary>
+        internal static string txtPhone {
+            get {
+                return ResourceManager.GetString("txtPhone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Preço.
+        /// </summary>
+        internal static string txtPrice {
+            get {
+                return ResourceManager.GetString("txtPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Produtos.
+        /// </summary>
+        internal static string txtProduct {
+            get {
+                return ResourceManager.GetString("txtProduct", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Matricula.
+        /// </summary>
+        internal static string txtRegister {
+            get {
+                return ResourceManager.GetString("txtRegister", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Salvar.
+        /// </summary>
+        internal static string txtSave {
+            get {
+                return ResourceManager.GetString("txtSave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Usuário.
+        /// </summary>
+        internal static string txtUser {
+            get {
+                return ResourceManager.GetString("txtUser", resourceCulture);
             }
         }
         

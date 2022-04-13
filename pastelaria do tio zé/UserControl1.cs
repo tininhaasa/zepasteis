@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace pastelaria_do_tio_zé
+﻿namespace pastelaria_do_tio_zé
 {
     public partial class UserControl1 : UserControl
     {
@@ -24,6 +14,9 @@ namespace pastelaria_do_tio_zé
             cancel.FlatAppearance.BorderSize = 0;
             cancel.BackColor = ColorTranslator.FromHtml("#ff0000");
             cancel.Text = "Cancelar";
+
+            save.Text = Properties.Resources.ResourceManager.GetString("txtSave");
+            cancel.Text = Properties.Resources.ResourceManager.GetString("txtCancel");
         }
     }
 }

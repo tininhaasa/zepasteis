@@ -183,6 +183,7 @@
             this.language_en.Size = new System.Drawing.Size(52, 40);
             this.language_en.TabIndex = 8;
             this.language_en.UseVisualStyleBackColor = false;
+            this.language_en.Click += new System.EventHandler(this.language_en_Click);
             // 
             // language_sp
             // 
@@ -194,6 +195,7 @@
             this.language_sp.Size = new System.Drawing.Size(56, 40);
             this.language_sp.TabIndex = 7;
             this.language_sp.UseVisualStyleBackColor = false;
+            this.language_sp.Click += new System.EventHandler(this.language_sp_Click);
             // 
             // language_pt
             // 
@@ -205,6 +207,7 @@
             this.language_pt.Size = new System.Drawing.Size(56, 40);
             this.language_pt.TabIndex = 6;
             this.language_pt.UseVisualStyleBackColor = false;
+            this.language_pt.Click += new System.EventHandler(this.language_pt_Click);
             // 
             // panel2
             // 
@@ -214,7 +217,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(107, 104);
             this.panel2.TabIndex = 5;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // ZePasteis
             // 
